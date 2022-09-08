@@ -1,0 +1,61 @@
+body {
+    background-color: #F3F1FF;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar {
+    background-color: #562EFF;
+}
+
+.brand-logo {
+    width: 40.42px;
+    height: 51;
+    margin-left: 190px;
+}
+
+.idea-text {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.profile-icon img {
+    width: 40px;
+    margin-right: 190px;
+    padding-left: 5px;
+}
+
+.top-player {
+    margin-top: 36px;
+    padding-left: 30px;
+}
+
+.top-heading {
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    color: #562EFF;
+
+}
+
+.player img {
+    width: 56px;
+    height: 56px;
+}
+
+main {
+    max-width: 870px;
+    max-height: 679px;
+
+}
+
+.player>p {
+    font-family: 'Poppins';
+    font-size: 18px;
+}
+hr{
+    border: 1px solid #D1D1D1;
+}
