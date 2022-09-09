@@ -12,10 +12,15 @@
     <!-- fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,600;0,700;1,600;1,800&display=swap"
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,600;0,700;1,600;1,800&family=Roboto:ital,wght@0,500;1,400;1,500;1,700&display=swap"
         rel="stylesheet">
+    <!-- fontawesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/style.css">
 
+    <!-- jquey -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js">
 </head>
 
 <body>
@@ -57,7 +62,7 @@
 
     <!-- top section starts here -->
     <main class="mx-auto">
-        <section class="container top-player bg-white">
+        <div class="container top-player bg-white">
             <h3 class="top-heading pt-4">Top Player</h3>
             <div class="row">
                 <div class="col-md-4 col-sm-6 player p-3 d-flex align-items-center">
@@ -86,67 +91,126 @@
                     <p class="ps-3">Mujahidul Islam</p>
                 </div>
             </div>
+            <!-- top section ends here -->
 
             <!-- top-blog section starts here -->
             <hr class="me-4">
             <h3 class="pt-2 top-heading">Top Blog</h3>
             <!-- row 1     -->
             <div class="row pt-4 pb-4">
-                    <!-- row 1 col 1 -->
-                    <div class="col-md-6">
-                        <div class="row">
-                            <div class="col-md-6"><img src="images/blogs/blog-1.png" alt="" class="w-100"></div>
-                            <div class="col-md-6">
-                                <h4 class="blog-detail">13 of My Favourite UI/UX Goodies</h4>
-                                <p class="designer-name">By <a href="">Danny Sapio</a></p>
-                            </div>
+                <!-- row 1 col 1 -->
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-6"><img src="images/blogs/blog-1.png" alt="" class="w-100"></div>
+                        <div class="col-md-6">
+                            <h4 class="blog-detail">13 of My Favourite UI/UX Goodies</h4>
+                            <p class="designer-name">By <a href="">Danny Sapio</a></p>
                         </div>
                     </div>
-                    <!-- row 1 col 2 -->
-                     <div class="col-md-6">
-                        <div class="row">
-                            <div class="col-md-6"><img src="images/blogs/blog-2.png" alt="" class="w-100"></div>
-                            <div class="col-md-6">
-                                <h4>UI cheat sheet: list vs grids</h4>
-                                <p class="designer-name">By <a href="">By Tess Gadd</a></p>
-                            </div>
+                </div>
+                <!-- row 1 col 2 -->
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-6"><img src="images/blogs/blog-2.png" alt="" class="w-100"></div>
+                        <div class="col-md-6">
+                            <h4>UI cheat sheet: list vs grids</h4>
+                            <p class="designer-name">By <a href="">By Tess Gadd</a></p>
                         </div>
                     </div>
-                </div>    
-                <!-- row 2 -->
-                <div class="row pb-4">
-                    <!-- row 2 col 1 -->
-                    <div class="col-md-6">
-                        <div class="row">
-                            <div class="col-md-6"><img src="images/blogs/blog-3.png" alt="" class="w-100"></div>
-                            <div class="col-md-6">
-                                <h4 class="blog-detail">7 typography tips for interface design</h4>
-                                <p class="designer-name">By <a href="">Jeremiah Lam</a></p>
-                            </div>
+                </div>
+            </div>
+            <!-- row 2 -->
+            <div class="row pb-4">
+                <!-- row 2 col 1 -->
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-6"><img src="images/blogs/blog-3.png" alt="" class="w-100"></div>
+                        <div class="col-md-6">
+                            <h4 class="blog-detail">7 typography tips for interface design</h4>
+                            <p class="designer-name">By <a href="">Jeremiah Lam</a></p>
                         </div>
                     </div>
-                    <!-- row 2 col 2 -->
-                     <div class="col-md-6">
-                        <div class="row">
-                            <div class="col-md-6"><img src="images/blogs/blog-4.png" alt="" class="w-100"></div>
-                            <div class="col-md-6">
-                                <h4>Your logo is copied</h4>
-                                <p class="designer-name">By <a href="">Ferdinand Vogier</a></p>
-                            </div>
+                </div>
+                <!-- row 2 col 2 -->
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-6"><img src="images/blogs/blog-4.png" alt="" class="w-100"></div>
+                        <div class="col-md-6">
+                            <h4>Your logo is copied</h4>
+                            <p class="designer-name">By <a href="">Ferdinand Vogier</a></p>
                         </div>
                     </div>
-                </div>   
-
-            <!-- top-blog section starts here -->
-
-        </section>
-    </main>
-    <!-- top section ends here -->
-    <section class="latest-course">
-        <div class="container">
-            
+                </div>
+            </div>
         </div>
-    </section>
+        <!-- top-blog section endss here -->
+
+        <!-- Lates Course starts -->
+        <div class="container latest-course mx-auto bg-white mt-4">
+            <h3 class="top-heading pt-4 ms-4">Lates Course</h3>
+            <div class="row">
+                <!-- course 1 -->
+                <div class="col-md-4 col-sm-6">
+                    <div class="card">
+                        <img src="images/courses/course-1.png" class="card-img-top p-3" alt="...">
+                        <div class="card-body">
+                            <div class="card-text">React - The Complete Guide 2020 <p class="course-author"><a
+                                        href="">Reed
+                                        Krakoff</a></p>
+                            </div>
+                            <div class="ratings">
+                                <i class="fa fa-star rating-color"></i>
+                                <i class="fa fa-star rating-color"></i>
+                                <i class="fa fa-star rating-color"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- course 2 -->
+                <div class="col-md-4 col-sm-6">
+                    <div class="card">
+                        <img src="images/courses/course-2.png" class="card-img-top p-3" alt="...">
+                        <div class="card-body">
+                            <div class="card-text">Powerpoint 2020 Master Powerpoint Cour<p class="course-author"><a
+                                        href="">Walter Scott</a></p>
+                            </div>
+                            <div class="ratings">
+                                <i class="fa fa-star rating-color"></i>
+                                <i class="fa fa-star rating-color"></i>
+                                <i class="fa fa-star rating-color"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- course 3 -->
+                <div class="col-md-4 col-sm-6">
+                    <div class="card">
+                        <img src="images/courses/course-3.png" class="card-img-top p-3" alt="...">
+                        <div class="card-body">
+                            <div class="card-text"> The Complete JavaScript Course 2020<p class="course-author"><a
+                                        href="">Reed Krakoff</a></p>
+                            </div>
+                            <div class="ratings">
+                                <i class="fa fa-star rating-color"></i>
+                                <i class="fa fa-star rating-color"></i>
+                                <i class="fa fa-star rating-color"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Lates Course ends -->
+
+    </main>
+
+
+
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
         integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"

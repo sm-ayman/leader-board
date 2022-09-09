@@ -1,15 +1,17 @@
 body {
     background-color: #F3F1FF;
     font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .navbar {
+    max-height: 90px;
     background-color: #562EFF;
 }
 
 .brand-logo {
     width: 40.42px;
-    height: 51;
+    height: 50px;
     margin-left: 190px;
 }
 
@@ -71,15 +73,59 @@ hr {
     font-size: 20px;
 }
 
-.designer-name{
+.designer-name {
     font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-color: #9F9F9F;
-padding-top: 6px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #9F9F9F;
+    padding-top: 6px;
 }
-.designer-name > a{
+
+.designer-name>a {
     text-decoration: none;
     color: #562EFF;
+}
+
+.latest-course {
+    max-width: 870px;
+    max-height: 450px;
+    border-radius: 5px;
+}
+
+.card-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.ratings {
+    margin-right: 10px;
+}
+
+.ratings i {
+
+    color: #AEAEAE;
+    font-size: 20px;
+}
+
+.rating-color {
+    color: #FFC014 !important;
+}
+
+.course-author>a {
+    text-decoration: none;
+    color: #ED6B4F;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14.6913px;
+    line-height: 17px;
+}
+
+.card {
+    border: none;
+    border-radius: 5px;
+    filter: drop-shadow(0px 5.34229px 13.3557px rgba(0, 0, 0, 0.05));
 }

@@ -1,0 +1,17 @@
+<div class="card">
+                        <img src="images/courses/course-1.png" class="card-img-top p-3" alt="...">
+                        <div class="card-body">
+                            <div class="card-text">React - The Complete Guide 2020 <p class="course-author"><a href="">Reed
+                                        Krakoff</a></p>
+                            </div>
+                            
+                                <div class="ratings">
+                                    <i class="fa fa-star rating-color"></i>
+                                    <i class="fa fa-star rating-color"></i>
+                                    <i class="fa fa-star rating-color"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                </div>
+                            
+                        </div>
+                    </div>
